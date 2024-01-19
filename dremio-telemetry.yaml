@@ -1,0 +1,8 @@
+tracing:
+  type: opentelemetry
+  serviceName: mydremio
+  samplerType: on
+  collectorEndpoint: http://172.16.8.210:4317 # replace with your ip addresss
+  # samplerEndpoint: http://localhost:4317
+  logSpans: true
+  propagator: jaeger

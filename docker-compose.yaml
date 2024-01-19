@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dremio:
+     build: .
+     ports:
+       - "9047:9047"
+       - "31010:31010"
